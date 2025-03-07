@@ -12,9 +12,16 @@
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #85A947;
     --cor-destaque: #ECE852;
+    --cor-secoes: #003092;
     --gap-texto: ;
     --fonte-principal: 'Tinos';
     --fonte-secundaria: 'Merriweather';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
 }
 
 body{
@@ -24,7 +31,8 @@ body{
 }
 
 .cabecalho{
-    
+    padding: 2% 0% 0% 15%;
+    background-color: var(--cor-secoes);
 }
 
 .apresentacao{
@@ -53,6 +61,7 @@ body{
 .apresentacao-presidente-texto{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
+    padding: 1rem 0;
 }
 
 img{
@@ -63,6 +72,7 @@ img{
 .apresentacao-presidente-hobbies{
     display: flex;
     flex-direction: column;
+    padding: 2.5rem 0;
 }
 
 .apresentacao-presidente-hobbies-subtitulo{
@@ -75,7 +85,7 @@ img{
     gap: 3%;
     list-style: none;
     font-family: var(--fonte-secundaria);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .apresentacao-presidente-hobbies-item{
@@ -84,11 +94,10 @@ img{
 
 .apresentacao-presidente-redes{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    /* gap: 3%; */
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .apresentacao-presidente-redes-subtitulo{
@@ -102,6 +111,7 @@ img{
     background-color: var(--cor-destaque);
     width: 20%;
     font-family: var(--fonte-secundaria);
+    gap: 1rem;
     font-size: 1rem;
     text-align: center;
     border-radius: 0.5rem;
@@ -110,6 +120,11 @@ img{
     text-decoration: none;
 }
 
-.rodape{
+.apresentacao-presidente-links:hover{
+    background-color: var(--cor-terciaria);
+}
 
+.rodape{
+    background-color: var(--cor-secoes);
+    padding: 1.5rem;
 }
