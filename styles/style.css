@@ -31,7 +31,7 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 1.5rem;
     background-color: var(--cor-secoes);
 }
 
