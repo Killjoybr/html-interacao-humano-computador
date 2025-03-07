@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+#ECE852 amarelo brasil
+#5CB338 verde brasil
+#EFE3C2 bege (paleta)
+#123524 preto (paleta)
+*/
+
 :root{
-    --cor-primaria:;
-    --cor-secundaria:;
-    --cor-terciaria:;
-    --cor-destaque:;
-    --gap-texto:;
+    --cor-primaria: #3E7B27;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #85A947;
+    --cor-destaque: #ECE852;
+    --gap-texto: ;
+    --fonte-principal: 'Tinos';
+    --fonte-secundaria: 'Merriweather';
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho{
@@ -11,39 +28,86 @@
 }
 
 .apresentacao{
-    
+    display: flex;
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .apresentacao-presidente{
-    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
 }
 
 .apresentacao-presidente-titulo{
-    
+    font-family: var(--fonte-secundaria);
+    font-size: 2.3rem;
 }
 
 .destaque-titulo{
-    
+    color: var(--cor-destaque);
 }
 
 .apresentacao-presidente-texto{
-    
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+img{
+    width: 40%;
+    border-radius: 5%;
 }
 
 .apresentacao-presidente-hobbies{
-    
+    display: flex;
+    flex-direction: column;
 }
 
-.apresentacao-presidente-hobbies-titulo{
-
+.apresentacao-presidente-hobbies-subtitulo{
+    font-family: var(--fonte-principal);
+    font-size: 2.3rem;
 }
 
 .apresentacao-presidente-hobbies-lista{
-
+    display: flex;
+    gap: 3%;
+    list-style: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
 }
 
 .apresentacao-presidente-hobbies-item{
+    padding: 1%;
+}
 
+.apresentacao-presidente-redes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 3%; */
+    gap: 2rem;
+}
+
+.apresentacao-presidente-redes-subtitulo{
+    font-family: var(--fonte-principal);
+    font-size: 2.3rem;
+}
+
+.apresentacao-presidente-links{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-destaque);
+    width: 20%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1.3rem 0;
+    color: var(--cor-primaria);
+    text-decoration: none;
 }
 
 .rodape{
