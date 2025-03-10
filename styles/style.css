@@ -213,3 +213,14 @@ body{
     border: none;
     border-radius: 0.5rem;
 }
+
+/* 
+    CSS -> Paginas
+*/
+
+.nav-responsivo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
