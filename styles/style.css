@@ -193,3 +193,23 @@ body{
     }
     
 }
+
+/* 
+    CSS -> Contato
+*/
+
+.conteudo-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 5%;
+}
+
+.conteudo-formulario input{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
