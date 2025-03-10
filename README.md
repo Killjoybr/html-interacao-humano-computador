@@ -17,7 +17,18 @@
 - Save your challenges on your GitHub and send the access link to the professor's email: **camilla.bonfim@ceub.edu.br**.
 - Choose one page to present in class.
 
----
+## Checklist
+
+- [x] Profile Page -> This page is also used as the index for all the other pages
+- [ ] Contact Page
+- [ ] Portfolio Page
+- [ ] Blog Page with Comments
+- [ ] Resume Page
+- [ ] Event Schedule Page
+- [ ] FAQ Page
+- [ ] Image Gallery Page with Information Table
+- [ ] Podcast Page with Audio and Episode Table
+- [ ] Movie Rental Page
 
 ## Challenges
 
