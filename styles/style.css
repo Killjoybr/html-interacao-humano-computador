@@ -40,16 +40,17 @@ body{
     padding: 5% 15%;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
-.apresentacao-presidente{
+.apresentacao-conteudo{
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 4%;
 }
 
-.apresentacao-presidente-titulo{
+.apresentacao-conteudo-titulo{
     font-family: var(--fonte-secundaria);
     font-size: 2.3rem;
 }
@@ -58,29 +59,30 @@ body{
     color: var(--cor-destaque);
 }
 
-.apresentacao-presidente-texto{
+.apresentacao-conteudo-texto{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     padding: 1rem 0;
 }
 
-.apresentacao-presidente-imagem{
-    width: 40%;
+.apresentacao-conteudo-imagem{
+    width: 50%;
     border-radius: 5%;
+    gap: 5px;
 }
 
-.apresentacao-presidente-hobbies{
+.apresentacao-conteudo-hobbies{
     display: flex;
     flex-direction: column;
     padding: 2.5rem 0;
 }
 
-.apresentacao-presidente-hobbies-subtitulo{
+.apresentacao-conteudo-hobbies-subtitulo{
     font-family: var(--fonte-principal);
     font-size: 2.3rem;
 }
 
-.apresentacao-presidente-hobbies-lista{
+.apresentacao-conteudo-hobbies-lista{
     display: flex;
     gap: 3%;
     list-style: none;
@@ -88,11 +90,11 @@ body{
     font-size: 1.5rem;
 }
 
-.apresentacao-presidente-hobbies-item{
+.apresentacao-conteudo-hobbies-item{
     padding: 1%;
 }
 
-.apresentacao-presidente-redes{
+.apresentacao-conteudo-redes{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -100,12 +102,12 @@ body{
     gap: 1.5rem;
 }
 
-.apresentacao-presidente-redes-subtitulo{
+.apresentacao-conteudo-redes-subtitulo{
     font-family: var(--fonte-principal);
     font-size: 2.3rem;
 }
 
-.apresentacao-presidente-links{
+.apresentacao-conteudo-links{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,11 +123,11 @@ body{
     text-decoration: none;
 }
 
-.apresentacao-presidente-links-icone{
+.apresentacao-conteudo-links-icone{
     width: 10%;
 }
 
-.apresentacao-presidente-links:hover{
+.apresentacao-conteudo-links:hover{
     background-color: var(--cor-terciaria);
 }
 
@@ -134,10 +136,19 @@ body{
     padding: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 5%;
+        text-align: center;
+    }
 
-}
-
-@media screen and (max-width: 480px) {
-  
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    
+    .apresentacao-conteudo{
+        width: auto;
+    }
+    
 }
