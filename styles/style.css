@@ -35,9 +35,38 @@ body{
     background-color: var(--cor-secoes);
 }
 
+.cabecalho-portfolio{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 1.5rem 15%;
+    background-color: var(--cor-secoes);
+}
+
+.cabecalho-titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+}
+
 .cabecalho-menu{
     display: flex;
     gap: 15px;
+}
+
+.cabecalho-menu-portfolio{
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho-menu-portfolio a{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.cabecalho-menu-portfolio a:hover{
+    color: var(--cor-destaque);
 }
 
 .cabecalho-menu a{
@@ -164,8 +193,18 @@ body{
 }
 
 .rodape{
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor-secoes);
     padding: 1.5rem;
+    align-items: center;
+    gap: 25px;
+}
+
+.rodape-texto{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 @media (max-width: 1200px) {
