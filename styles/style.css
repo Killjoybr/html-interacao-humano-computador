@@ -21,7 +21,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-principal), serif;
 }
 
 body{
@@ -44,7 +44,7 @@ body{
 }
 
 .cabecalho-titulo{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     font-size: 2rem;
 }
 
@@ -59,7 +59,7 @@ body{
 }
 
 .cabecalho-menu-portfolio a{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     color: var(--cor-secundaria);
     text-decoration: none;
     font-size: 1.5rem;
@@ -70,7 +70,7 @@ body{
 }
 
 .cabecalho-menu a{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     color: var(--cor-secundaria);
     text-decoration: none;
     font-size: 1.5rem;
@@ -86,7 +86,7 @@ body{
 }
 
 .cabecalho-menu-responsivo a{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     color: var(--cor-secundaria);
     text-decoration: none;
     font-size: 1.5rem;
@@ -112,7 +112,7 @@ body{
 }
 
 .apresentacao-conteudo-titulo{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     font-size: 2.3rem;
 }
 
@@ -121,7 +121,7 @@ body{
 }
 
 .apresentacao-conteudo-texto{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     font-size: 1.5rem;
     padding: 1rem 0;
 }
@@ -139,7 +139,7 @@ body{
 }
 
 .apresentacao-conteudo-hobbies-subtitulo{
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-principal), serif;
     font-size: 2.3rem;
 }
 
@@ -147,7 +147,7 @@ body{
     display: flex;
     gap: 3%;
     list-style: none;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     font-size: 1.5rem;
 }
 
@@ -164,7 +164,7 @@ body{
 }
 
 .apresentacao-conteudo-redes-subtitulo{
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-principal), serif;
     font-size: 2.3rem;
 }
 
@@ -174,7 +174,7 @@ body{
     justify-content: center;
     background-color: var(--cor-destaque);
     width: 18rem;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     gap: 1rem;
     font-size: 1rem;
     align-items: center;
@@ -202,7 +202,7 @@ body{
 }
 
 .rodape-texto{
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria), serif;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -262,4 +262,91 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+/*
+    CSS -> Portfolio
+*/
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao-menu{
+    display: flex;
+    gap: 10%;
+    padding: 1rem;
+}
+
+.navegacao-menu a{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.navegacao-menu a:hover{
+    color: var(--cor-destaque);
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 15%;
+}
+
+.projeto-link{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.projeto-link:hover{
+    color: var(--cor-destaque);
+}
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.projeto-titulo{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 1.5rem;
+}
+
+.projeto-descricao{
+    font-family: var(--fonte-principal), serif;
+    font-size: 1rem;
+    color: var(--cor-destaque);
+}
+
+.projeto-imagem{
+    width: 50%;
+    border-radius: 5%;
+}
+
+.projeto-imagem:hover{
+    box-shadow: #85A947 10px 10px 10px ;
+}
+
+@media (max-width: 1200px) {
+    .projetos{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .projeto{
+        width: auto;
+    }
+
+    .projeto-link{
+        text-decoration: underline;
+    }
+
+    .projeto-imagem{
+        width: 70%;
+    }
 }

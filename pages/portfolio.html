@@ -20,7 +20,7 @@
             <a href="./podcast.html">Podcast</a>
             <a href="./locadora.html">Locadora</a>
         </nav> -->
-        <nav class="cabecalho-menu-portfolio">
+        <nav class="cabecalho-menu-portfolio" id="cabecalho">
             <a href="../index.html">Home</a>
             <a href="./paginas.html">Paginas</a>
         </nav>
@@ -31,14 +31,36 @@
     <main class="conteudo">
         <section class="navegacao">
             <nav class="navegacao-menu">
-                <!-- TODO: 2. Uma seção de navegação com links para dierentes seções da página. -->
+                <a href="#cabecalho">Header</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#rodape">Footer</a>
             </nav>
         </section>
-        <section class="projetos">
-            <!-- TODO: 3. Uma seção de projetos que exiba pelo menos três projetos, cada um com uma imagem, título e descrição. -->
+        <section class="projetos" id="projetos">
+            <a href="../index.html" class="projeto-link">
+                <div class="projeto">
+                    <h2 class="projeto-titulo">Página do Presidente</h2>
+                    <p class="projeto-descricao">Lorem ipsum dolor sit amet</p>
+                    <img class="projeto-imagem" src="../assets/projetos/projeto-presidente.png" alt="print de uma pagina web feita como perfil para um presidente de uma empresa.">
+                </div>
+            </a>
+            <a href="https://www.ruandavid.tech/" class="projeto-link">
+                <div class="projeto">
+                    <h2 class="projeto-titulo">Página do Desenvolvedor</h2>
+                    <p class="projeto-descricao">Lorem ipsum dolor sit amet</p>
+                    <img class="projeto-imagem" src="../assets/projetos/projeto-website.png" alt="print de uma pagina web com animações no fundo e a escrita Ruan David no centro, esta página é do desenvolvedor deste website.">
+                </div>
+            </a>
+            <a href="https://github.com/Killjoybr" class="projeto-link">
+                <div class="projeto">
+                    <h2 class="projeto-titulo">Página do GitHub do Ruan David</h2>
+                    <p class="projeto-descricao">Lorem ipsum dolor sit amet</p>
+                    <img class="projeto-imagem" src="../assets/projetos/projeto-github.png" alt="print da pagina web do GitHub, a imagem mostra uma foto do desenvolvedor a esquerda e descrições de linguagens de código a direita, além de certificações que o desenvolvedor obteve.">
+                </div>
+            </a>
         </section>
     </main>
-    <footer class="rodape">
+    <footer class="rodape" id="rodape">
         <p class="rodape-texto">Desenvolvido por <strong class="destaque-titulo">Ruan David</strong></p>
         <br><br>
         <a class="apresentacao-conteudo-links" href="./contact.html">Contato</a>

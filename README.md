@@ -20,8 +20,8 @@
 ## Checklist
 
 - [x] Profile Page -> This page is also used as the index for all the other pages
-- [ ] Contact Page
-- [ ] Portfolio Page
+- [x] Contact Page -> Needs fixing on UX -> submit and reset buttons not changing cursor
+- [x] Portfolio Page
 - [ ] Blog Page with Comments
 - [ ] Resume Page
 - [ ] Event Schedule Page
