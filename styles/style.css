@@ -371,11 +371,19 @@ body{
 .blog-postagem{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1.5rem;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background-color: var(--cor-terciaria);
     width: 50%;
+}
+
+.blog-postagem-comentario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .blog-postagem-titulo{
@@ -384,5 +392,33 @@ body{
 }
 
 .blog-postagem-texto{
+    font-size: 1.2rem;
+}
+
+.blog-comentarios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+.blog-comentarios-titulo{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 1.5rem;
+}
+
+.blog-comentarios-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.blog-comentarios-post-subtitulo{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 1rem;
+}
+
+.blog-comentarios-post-texto{
     font-size: 1.2rem;
 }

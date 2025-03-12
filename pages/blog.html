@@ -26,9 +26,6 @@
         </nav>
     </header>
     <main class="apresentacao" style="flex-direction: column;">
-        <!-- 
-            TODO: 4. Uma seção para exibir os comentários enviados.
-        -->
         <section class="blog">
             <h1 class="blog-titulo">
                 Blog do Desenvolvedor Aprendiz
@@ -41,17 +38,23 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aspernatur architecto <strong style="color: black;">debitis</strong> atque molestiae rerum vel impedit magni! Suscipit repellendus eius et. Architecto eum voluptates ducimus illum nemo repudiandae hic.
                 </p>
                 <h3>Escreva seu comentário abaixo:</h3>
-                <form action="" method="post">
-                    <input type="text" placeholder="Nome" name="nome">
-                    <input type="email" placeholder="E-mail" name="email">
-                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentário"></textarea>
+                <form class="blog-postagem-comentario" action="" method="post">
+                    <input aria-label="campo para escrever o nome" type="text" placeholder="Nome" name="nome">
+                    <input aria-label="campo para escrever o email" type="email" placeholder="E-mail" name="email">
+                    <textarea aria-label="campo para escrever o comentário" name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentário"></textarea>
+                    <input aria-label="botão de enviar o comentário" type="submit" value="Enviar">
                 </form>
+            </article>
         </section>
-        <section class="comentarios">
-            <h2>Comentários</h2>
-            <article class="comentario">
-                <h3>Nome do Comentador</h3>
-                <p>Comentário do usuário</p>
+        <section class="blog-comentarios">
+            <h2 class="blog-comentarios-titulo">Comentários</h2>
+            <article class="blog-comentarios-post">
+                <h3 class="blog-comentarios-post-subtitulo">Joana Valadares</h3>
+                <p class="blog-comentarios-post-texto">Lorem ipsum dolor sit amet dor.</p>
+            </article>
+            <article class="blog-comentarios-post">
+                <h3 class="blog-comentarios-post-subtitulo">Joana Valadares</h3>
+                <p class="blog-comentarios-post-texto">Lorem ipsum dolor sit amet dor.</p>
             </article>
         </section>
     </main>
