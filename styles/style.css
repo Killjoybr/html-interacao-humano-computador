@@ -350,3 +350,39 @@ body{
         width: 70%;
     }
 }
+
+/*
+    CSS -> Blog
+*/
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.blog-titulo{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 2.3rem;
+    padding: 1.5rem;
+}
+
+.blog-postagem{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--cor-terciaria);
+    width: 50%;
+}
+
+.blog-postagem-titulo{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 1.5rem;
+}
+
+.blog-postagem-texto{
+    font-size: 1.2rem;
+}
