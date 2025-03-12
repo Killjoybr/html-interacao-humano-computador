@@ -21,12 +21,39 @@
             <a href="./locadora.html">Locadora</a>
         </nav>
         <nav class="cabecalho-menu-responsivo">
-            <a href="">Home</a>
-            <a href="">Paginas</a>
+            <a href="../index.html">Home</a>
+            <a href="./paginas.html">Paginas</a>
         </nav>
     </header>
-    <main class="conteudo">
-
+    <main class="apresentacao" style="flex-direction: column;">
+        <!-- 
+            TODO: 4. Uma seção para exibir os comentários enviados.
+        -->
+        <section class="blog">
+            <h1 class="blog-titulo">
+                Blog do Desenvolvedor Aprendiz
+            </h1>
+            <article class="blog-postagem">
+                <h2 class="blog-postagem-titulo">
+                    Aprendendo a programar
+                </h2>
+                <p class="blog-postagem-texto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aspernatur architecto <strong style="color: black;">debitis</strong> atque molestiae rerum vel impedit magni! Suscipit repellendus eius et. Architecto eum voluptates ducimus illum nemo repudiandae hic.
+                </p>
+                <h3>Escreva seu comentário abaixo:</h3>
+                <form action="" method="post">
+                    <input type="text" placeholder="Nome" name="nome">
+                    <input type="email" placeholder="E-mail" name="email">
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentário"></textarea>
+                </form>
+        </section>
+        <section class="comentarios">
+            <h2>Comentários</h2>
+            <article class="comentario">
+                <h3>Nome do Comentador</h3>
+                <p>Comentário do usuário</p>
+            </article>
+        </section>
     </main>
     <footer class="rodape">
         <p class="rodape-texto">Desenvolvido por <strong class="destaque-titulo">Ruan David</strong></p>
