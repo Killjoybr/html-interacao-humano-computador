@@ -25,6 +25,9 @@
 }
 
 body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -426,3 +429,31 @@ body{
 /*
     CSS -> Agenda de Eventos
 */
+
+.conteudo{
+    flex: 1;
+}
+
+.agenda-eventos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.agenda-eventos-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .8rem;
+    padding: .5rem 1rem 0 0;
+}
+
+.agenda-item-descricao{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 1rem;
+}
+
+.agenda-item-data{
+    color: var(--cor-destaque);
+}
