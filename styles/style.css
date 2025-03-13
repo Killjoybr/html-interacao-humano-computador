@@ -483,3 +483,36 @@ body{
 .resposta-faq{
     padding: 1rem 2rem;
 }
+
+/*
+    CSS -> Galeria
+*/
+
+.galeria-titulo{
+    font-family: var(--fonte-secundaria), serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.galeria-imagens{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.imagem-galeria{
+    height: 25rem;
+    margin-bottom: 2rem;
+    border-radius: 20%;
+    box-shadow: #000 10px 10px 10px ;
+}
+
+.tabela-imagens {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabela-imagens th, .tabela-imagens td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
