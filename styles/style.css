@@ -516,3 +516,28 @@ body{
     border: 1px solid #ddd;
     padding: 8px;
 }
+
+/*
+    CSS -> Podcast
+*/
+
+.podcast-titulo{
+    font-family: var(--fonte-secundaria), serif;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.podcast-player{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela-podcast {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabela-podcast th, .tabela-podcast td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
