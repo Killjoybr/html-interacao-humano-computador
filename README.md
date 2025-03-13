@@ -2,6 +2,8 @@
 
 ## Course: Human-Computer Interaction
 
+[Check the live website 💾](https://killjoybr.github.io/html-interacao-humano-computador/)
+
 ### Instructions
 
 - Complete the challenges below to practice HTML using Visual Studio Code.
@@ -20,15 +22,15 @@
 ## Checklist
 
 - [x] Profile Page -> This page is also used as the index for all the other pages
-- [x] Contact Page -> Needs fixing on UX -> submit and reset buttons not changing cursor
+- [x] Contact Page
 - [x] Portfolio Page
-- [ ] Blog Page with Comments
-- [ ] Resume Page
-- [ ] Event Schedule Page
-- [ ] FAQ Page
-- [ ] Image Gallery Page with Information Table
-- [ ] Podcast Page with Audio and Episode Table
-- [ ] Movie Rental Page
+- [x] Blog Page with Comments
+- [x] Resume Page
+- [x] Event Schedule Page
+- [x] FAQ Page
+- [x] Image Gallery Page with Information Table
+- [x] Podcast Page with Audio and Episode Table
+- [x] Movie Rental Page
 
 ## Challenges
 
