@@ -26,7 +26,31 @@
         </nav>
     </header>
     <main class="conteudo">
-
+        <!--
+            TODO: 1. Cabeçalho: Inclui o título da loja de locadora de filmes.
+            TODO: 3. Vídeo: A tag <video> é usada para incorporar vídeos de introdução dos filmes.
+            TODO: 4. Classifcação com Estrelas: A classifcação é implementada usando inputs do tipo rádio e labels estilizados para parecerem estrelas. Quando uma estrela é selecionada, ela e todas as estrelas anteriores são coloridas em dourado
+        -->
+        <h1 class="titulo-locadora">Locadora do Front Triste</h1>
+        <section class="filmes-locadora">
+<!--            TODO: 2. Seção de Filmes: Cada filme tem um título, descrição, um vídeo de introdução e uma seção de classifcação com estrelas.-->
+            <h2 class="titulo-filme">Trailer Big Buck Bunny</h2>
+            <p class="descricao-filme">3 Roedores, um grande coelho</p>
+            <video controls src="../assets/trailer_1080p.mov" autoplay muted></video>
+<!--            <input class="classificacao-filme" type="radio" value="⭐">-->
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 estrelas">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 estrelas">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 estrelas">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 estrelas">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 estrela">&#9733;</label>
+            </div>
+        </section>
     </main>
     <footer class="rodape">
         <p class="rodape-texto">Desenvolvido por <strong class="destaque-titulo">Ruan David</strong></p>

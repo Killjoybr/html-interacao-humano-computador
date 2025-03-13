@@ -541,3 +541,55 @@ body{
     border: 1px solid #ddd;
     padding: 8px;
 }
+
+/*
+    CSS -> Locadora
+*/
+
+.titulo-locadora{
+    font-family: var(--fonte-secundaria), serif;
+
+    text-align: center;
+}
+
+.filmes-locadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-filme{
+    font-family: var(--fonte-secundaria), serif;
+}
+
+.filmes-locadora video{
+    margin-top: 5rem;
+    width: 50%;
+    border-radius: 10%;
+}
+
+/*
+    DISCLAIMER: Solução de classificação dos filmes gerada por IA
+*/
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.rating input {
+    display: none;
+}
+.rating label {
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+}
+.rating input:checked ~ label,
+.rating input:checked ~ label ~ label {
+    color: gold;
+}
+.rating label:hover,
+.rating label:hover ~ label {
+    color: gold;
+}
