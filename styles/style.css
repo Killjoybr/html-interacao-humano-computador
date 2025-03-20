@@ -517,6 +517,18 @@ body{
     padding: 8px;
 }
 
+@media (max-width: 1200px) {
+    .galeria-imagens{
+        flex-direction: column-reverse;
+        padding: 5%;
+        align-items: center;
+    }
+
+    .imagem-galeria{
+        width: 70%;
+    }
+}
+
 /*
     CSS -> Podcast
 */
