@@ -45,5 +45,11 @@
     <footer class="rodape">
         <p class="rodape-texto">Desenvolvido por <strong class="destaque-titulo">Ruan David</strong></p>
     </footer>
+    <script>
+        document.querySelector('.conteudo-formulario').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Formulário enviado com sucesso!');
+        });
+    </script>
 </body>
 </html>
